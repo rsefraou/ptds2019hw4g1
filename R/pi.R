@@ -5,7 +5,7 @@
 #' @param seed A \code{numeric} used to control the seed of the random number
 #' generator used by this function.
 #' @return A \code{list} of class pi with the attributes
-#' @import magrittr dplyr tydiverse scales stringr kableExtra ggplot2 stats
+#' @import magrittr dplyr scales stringr kableExtra ggplot2 stats
 #' \describe{
 #'      \item{estimated_pi}{Estimated value of pi}
 #'      \item{points}{Estimated points}
@@ -51,7 +51,7 @@ estimate_pi <- function(B = 5000, seed = 10) {
 #' @param x A \code{lits} of class pi returned by the function simulate_pi
 #' @return A \code{list} of class pi with the attributes
 #' @export
-#' @import magrittr dplyr tydiverse scales stringr kableExtra ggplot2 stats
+#' @import magrittr dplyr scales stringr kableExtra ggplot2 stats
 plot.pi <- function(x) {
   points <- x[["points"]]
 
@@ -69,7 +69,7 @@ plot.pi <- function(x) {
   cube <- dplyr::data_frame(x = c(1, 1, -1, -1, 1), y = c(1, -1 , -1, 1, 1))
 
   #plot
-  ggplot(points) +
+  ggplot2::ggplot(points) +
     geom_point(aes(x, y, color = inside), alpha = 0.5) +
     theme_classic() +
     guides(color = FALSE) +
@@ -81,4 +81,3 @@ plot.pi <- function(x) {
     coord_fixed() +
     theme(panel.background = element_rect(fill = "white", colour = "black"))
 }
-estimate_pi() %>% plot.pi()
