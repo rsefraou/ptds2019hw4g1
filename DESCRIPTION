@@ -3,7 +3,7 @@ Type: Package
 Title: Compute and plot pi
 Version: 0.1.0
 Authors@R: c(
-    person("Alexandre", "Schroeter", role = c"aut"),
+    person("Alexandre", "Schroeter", role = "aut"),
     person("Leonard", "Philippossian", role = "aut"),
     person("David", "Pitteloud", role = "aut"),
     person("Rita", "Sefraoui Tahiri", role = c("aut", "cre"))
