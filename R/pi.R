@@ -4,11 +4,7 @@
 #' @param B A \code{numeric} (integer) used to denote the number of points simulated
 #' @param seed A \code{numeric} used to control the seed of the random number
 #' generator used by this function.
-#' @return A \code{list} of class pi with the attributes
-#' \describe{
-#'      \item{estimated_pi}{Estimated value of pi}
-#'      \item{points}{Estimated points}
-#' }
+#' @return A \code{list} of class pi with the attributes points and estimation
 #' @import magrittr dplyr scales stringr kableExtra ggplot2 stats
 #' @export
 #' @examples
