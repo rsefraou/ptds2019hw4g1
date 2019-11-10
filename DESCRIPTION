@@ -9,8 +9,7 @@ Authors@R: c(
     person("David", "Pitteloud", role = "aut")    
     )
 Maintainer: Rita Sefraoui <rita.sefraouitahiri@unil.ch>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: This package allows us to compute a pi simulation from different points. There are two functions in the package, one that returns an estimated value of pi with points and one that plots them.
 Imports: 
     magrittr,
     dplyr,
