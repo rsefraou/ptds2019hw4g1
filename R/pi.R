@@ -51,7 +51,7 @@ estimate_pi <- function(B = 5000, seed = 10) {
 #' @param x A \code{lits} of class pi returned by the function simulate_pi
 #' @return A \code{list} of class pi with the attributes
 #' @export
-#' @import magrittr ggplot
+#' @import magrittr ggplot2
 plot.pi <- function(x) {
   points <- x[["points"]]
 
