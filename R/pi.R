@@ -5,7 +5,7 @@
 #' @param seed A \code{numeric} used to control the seed of the random number
 #' generator used by this function.
 #' @return A \code{list} of class pi with the attributes
-#' @import magrittr
+#' @import magrittr dplyr tydiverse scales stringr kableExtra ggplot2 stats
 #' \describe{
 #'      \item{estimated_pi}{Estimated value of pi}
 #'      \item{points}{Estimated points}
@@ -51,7 +51,7 @@ estimate_pi <- function(B = 5000, seed = 10) {
 #' @param x A \code{lits} of class pi returned by the function simulate_pi
 #' @return A \code{list} of class pi with the attributes
 #' @export
-#' @import magrittr ggplot2
+#' @import magrittr dplyr tydiverse scales stringr kableExtra ggplot2 stats
 plot.pi <- function(x) {
   points <- x[["points"]]
 
