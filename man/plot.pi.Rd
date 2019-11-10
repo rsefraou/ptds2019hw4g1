@@ -13,5 +13,5 @@
 A \code{list} of class pi with the attributes
 }
 \description{
-plots simulated points
+Plot of pi
 }

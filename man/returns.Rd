@@ -16,8 +16,13 @@ generator used by this function.}
 A \code{list} of class pi with the attributes points and estimation
 }
 \description{
-returns  an estimated value of π and simulated points
+Simple Pi estimation
 }
+\section{Functions}{
+\itemize{
+\item \code{estimate_pi}: an estimated value of π and simulated points
+}}
+
 \examples{
 estimate_pi(500, 6)
 }
