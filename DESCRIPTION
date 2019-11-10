@@ -14,7 +14,6 @@ Description: More about what it does (maybe more than one line)
 Imports: 
     magrittr,
     dplyr,
-    tydiverse,
     scales,
     stringr,
     kableExtra,
