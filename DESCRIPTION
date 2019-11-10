@@ -6,8 +6,9 @@ Authors@R: c(
     person("Alexandre", "Schroeter", role = "aut"),
     person("Leonard", "Philippossian", role = "aut"),
     person("David", "Pitteloud", role = "aut"),
-    person("Rita", "Sefraoui Tahiri", role = c("aut", "cre"))
+    person("Rita", "Sefraoui", role = c("aut", "cre"))
     )
+Maintainer: Rita Sefraoui <rita.sefraouitahiri@unil.ch>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
