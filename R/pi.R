@@ -1,6 +1,6 @@
 #' @title Simple Pi estimation
 #'
-#' @description returns  an estimated value of π and simulated points
+#' @describeIn  returns  an estimated value of π and simulated points
 #' @param B A \code{numeric} (integer) used to denote the number of points simulated
 #' @param seed A \code{numeric} used to control the seed of the random number
 #' generator used by this function.
@@ -43,7 +43,7 @@ estimate_pi <- function(B = 5000, seed = 10) {
 
 #' @title Plot of pi
 #'
-#' @description plots simulated points
+#' @describeIn  plots simulated points
 #' @param x A \code{lits} of class pi returned by the function simulate_pi
 #' @return A \code{list} of class pi with the attributes
 #' @export

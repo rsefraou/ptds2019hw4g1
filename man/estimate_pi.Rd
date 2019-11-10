@@ -13,7 +13,7 @@ estimate_pi(B = 5000, seed = 10)
 generator used by this function.}
 }
 \value{
-A \code{list} of class pi with the attributes
+A \code{list} of class pi with the attributes points and estimation
 }
 \description{
 returns  an estimated value of π and simulated points
