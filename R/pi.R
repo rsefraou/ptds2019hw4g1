@@ -5,10 +5,10 @@
 #' @param seed A \code{numeric} used to control the seed of the random number
 #' generator used by this function.
 #' @return A \code{list} of class pi with the attributes
-#' @import magrittr dplyr scales stringr kableExtra ggplot2 stats
 #' \describe{
 #'      \item{estimated_pi}{Estimated value of pi}
 #'      \item{points}{Estimated points}
+#' @import magrittr dplyr scales stringr kableExtra ggplot2 stats
 #' }
 #' @export
 #' @examples
