@@ -11,6 +11,14 @@ Authors@R: c(
 Maintainer: Rita Sefraoui <rita.sefraouitahiri@unil.ch>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
+Imports: 
+    magrittr,
+    dplyr,
+    tydiverse,
+    scales,
+    stringr,
+    kableExtra,
+    ggplot2   
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
