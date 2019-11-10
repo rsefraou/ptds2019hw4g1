@@ -8,8 +8,8 @@
 #' \describe{
 #'      \item{estimated_pi}{Estimated value of pi}
 #'      \item{points}{Estimated points}
-#' @import magrittr dplyr scales stringr kableExtra ggplot2 stats
 #' }
+#' @import magrittr dplyr scales stringr kableExtra ggplot2 stats
 #' @export
 #' @examples
 #' estimate_pi(500, 6)
