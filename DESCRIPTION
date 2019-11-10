@@ -15,6 +15,7 @@ Imports:
     dplyr,
     scales,
     stringr,
+    kable,
     kableExtra,
     ggplot2   
 Depends:
