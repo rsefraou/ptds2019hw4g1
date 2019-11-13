@@ -2,10 +2,12 @@
 
 S3method(plot,pi)
 export(estimate_pi)
+export(runDemo)
 import(dplyr)
 import(ggplot2)
 import(kableExtra)
 import(magrittr)
+import(ptds2019hw4g1)
 import(scales)
 import(stats)
 import(stringr)

@@ -1,6 +1,6 @@
 #' @title Run demonstration of app
 #'
-#' @describeIn  returns  an estimated value of π and simulated points
+#' @describe returns  an estimated value of π and simulated points
 #' @import magrittr dplyr scales stringr kableExtra ggplot2 stats ptds2019hw4g1
 #' @export
 runDemo <- function() {
