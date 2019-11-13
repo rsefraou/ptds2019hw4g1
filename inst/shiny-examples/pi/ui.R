@@ -4,7 +4,7 @@ library(shinythemes)
 
 shinyUI(fluidPage(theme = shinytheme("superhero"),
 
-                  titlePanel("Pi Estimation"),
+                  titlePanel("\\(\\pi\\) Estimation"),
                   withMathJax(),
                   sidebarLayout(
 
