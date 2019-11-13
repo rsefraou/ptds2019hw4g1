@@ -14,6 +14,4 @@ runDemo <- function() {
   shiny::runApp(appDir, display.mode = "normal")
 
 }
-runDemo()
 
-#, package = "ptds2019hw4g1"
