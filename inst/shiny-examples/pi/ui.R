@@ -9,8 +9,9 @@ shinyUI(fluidPage(theme = shinytheme("superhero"),
                   sidebarLayout(
 
                     sidebarPanel(
-
-                      selectInput("method", "Method", choices = "Estimation of \\(\\pi\\)"),
+                      #We did not see the utility of having to choose an imput when we only have one method so we changed
+                      #selectInput for textInput
+                      textInput("method", "Method", choices= "Monte-Carlo approach"),
 
                       numericInput("seed", "Chose a seed", value = 4),
 
