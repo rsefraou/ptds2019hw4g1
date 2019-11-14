@@ -11,7 +11,7 @@ shinyUI(fluidPage(theme = shinytheme("superhero"),
                     sidebarPanel(
                       #We did not see the utility of having to choose an imput when we only have one method so we changed
                       #selectInput for textInput
-                      textInput("method", "Method", choices= "Monte-Carlo approach"),
+                      textInput("method", "Method", value= "Monte-Carlo approach"),
 
                       numericInput("seed", "Chose a seed", value = 4),
 
