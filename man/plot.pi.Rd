@@ -15,8 +15,3 @@ A \code{list} of class pi with the attributes
 \description{
 Plot of pi
 }
-\section{Functions}{
-\itemize{
-\item \code{plot.pi}: simulated points
-}}
-
