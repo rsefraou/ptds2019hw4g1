@@ -6,7 +6,8 @@ Authors@R: c(
     person("Rita", "Sefraoui", email= "rita.sefraouitahiri@unil.ch", role = c("aut", "cre")),
     person("Alexandre", "Schroeter", role = "aut"),
     person("Leonard", "Philippossian", role = "aut"),
-    person("David", "Pitteloud", role = "aut")    
+    person("David", "Pitteloud", role = "aut"), 
+    person("Simon", "Fornerod", role="aut"),
     )
 Maintainer: Rita Sefraoui <rita.sefraouitahiri@unil.ch>
 Description: This package allows us to compute a pi simulation from different points. There are two functions in the package, one that returns an estimated value of pi with points and one that plots them.
