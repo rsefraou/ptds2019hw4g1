@@ -1,6 +1,6 @@
 #' @title Run demonstration of app
 #'
-#' @describe returns  an estimated value of π and simulated points
+#' @describe runDemo returns  an estimated value of π and simulated points
 #' @import magrittr dplyr scales stringr  ggplot2 stats
 #' @export
 runDemo <- function() {
