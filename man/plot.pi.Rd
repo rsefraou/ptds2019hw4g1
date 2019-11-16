@@ -17,6 +17,6 @@ Plot of pi
 }
 \section{Functions}{
 \itemize{
-\item \code{plot.pi}: simulated points
+\item \code{plot.pi}: plots simulated points
 }}
 
