@@ -4,7 +4,7 @@
 \alias{plot.pi}
 \title{Plot of pi}
 \usage{
-\method{plot}{pi}(x)
+plot.pi(x)
 }
 \arguments{
 \item{x}{A \code{lits} of class pi returned by the function simulate_pi}
@@ -15,3 +15,8 @@ A \code{list} of class pi with the attributes
 \description{
 Plot of pi
 }
+\section{Functions}{
+\itemize{
+\item \code{plot.pi}: simulated points
+}}
+

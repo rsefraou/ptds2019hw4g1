@@ -43,7 +43,7 @@ estimate_pi <- function(B = 5000, seed = 10) {
 
 #' @title Plot of pi
 #'
-#' @describeIn  plots simulated points
+#' @describeIn  plot.pi plots simulated points
 #' @param x A \code{lits} of class pi returned by the function simulate_pi
 #' @return A \code{list} of class pi with the attributes
 #' @export

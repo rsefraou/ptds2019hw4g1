@@ -20,7 +20,7 @@ Simple Pi estimation
 }
 \section{Functions}{
 \itemize{
-\item \code{estimate_pi}: an estimated value of π and simulated points
+\item \code{estimate_pi}: returns an estimated value of π and simulated points
 }}
 
 \examples{
