@@ -1,6 +1,6 @@
 #' @title Simple Pi estimation
 #'
-#' @describeIn  returns  an estimated value of π and simulated points
+#' @describeIn estimate_pi returns an estimated value of π and simulated points
 #' @param B A \code{numeric} (integer) used to denote the number of points simulated
 #' @param seed A \code{numeric} used to control the seed of the random number
 #' generator used by this function.
@@ -10,9 +10,9 @@
 #' @examples
 #' estimate_pi(500, 6)
 estimate_pi <- function(B = 5000, seed = 10) {
-  if (B <= 0 | !is.numeric(B))
+  if (B <= 0 | ! is.numeric(B))
     stop("Please specify B as a numeric positive value")
-  if (seed <= 0 || !is.numeric(seed))
+  if (seed <= 0 || ! is.numeric(seed))
     stop("Please specify seed as a numeric positive value")
 
   # set a seed
@@ -25,10 +25,10 @@ estimate_pi <- function(B = 5000, seed = 10) {
   )
   #define if a point is inside the circle and assign it to column inside
   for(i in 1:nrow(points)){
-    points[i,3] <- ifelse((points[i,1] ^ 2 + points[i,2] ^ 2) < 1, T, F)
+    points[i, 3] <- ifelse((points[i, 1] ^ 2 + points[i, 2] ^ 2) < 1, T, F)
   }
 
-  estimated_pi = 4*sum(points[,3])/nrow(points)
+  estimated_pi = 4 * sum(points[,3])/nrow(points)
 
   # create a new list
   rval <- list(
@@ -53,8 +53,8 @@ plot.pi <- function(x) {
 
 
   #create circle
-  circleFun <- function(center = c(0,0),r = 1, npoints = 100){
-    tt <- seq(0,2*pi,length.out = npoints)
+  circleFun <- function(center = c(0,0), r = 1, npoints = 100){
+    tt <- seq(0,2 * pi, length.out = npoints)
     xx <- center[1] + r * cos(tt)
     yy <- center[2] + r * sin(tt)
     return(data.frame(x = xx, y = yy))
