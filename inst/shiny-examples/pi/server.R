@@ -26,7 +26,7 @@ shinyServer(function(input, output) {
 
     output$pi <- renderText({
         # extract the estimated value
-        paste("The estimation of \\(\\pi\\) with", input$B, "iterations is equal to ", estimate_pi(input$B, input$seed)$estimated_pi)
+        paste("The estimation of pi with", input$B, "iterations is equal to ", estimate_pi(input$B, input$seed)$estimated_pi)
     })
 
 })
