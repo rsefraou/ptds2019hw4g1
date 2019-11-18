@@ -15,7 +15,7 @@ shinyUI(fluidPage(theme = shinytheme("superhero"),
 
                       numericInput("seed", "Chose a seed", value = 4),
 
-                      sliderInput("B", "number of iterations", min = 0, max = 10000, value = 5000) ),
+                      sliderInput("B", "number of iterations", min = 0, max = 1000000, value = 5000) ),
 
                     mainPanel(
 
