@@ -9,11 +9,10 @@ shinyUI(fluidPage(theme = shinytheme("superhero"),
                   sidebarLayout(
 
                     sidebarPanel(
-                      #We did not see the utility of having to choose an imput when we only have one method so we changed
-                      #selectInput for textInput
-                      textInput("method", "Method", value= "Monte-Carlo approach"),
 
-                      numericInput("seed", "Chose a seed", value = 4),
+                      selectInput("method", "Method", value= "Monte-Carlo approach"),
+
+                      numericInput("seed", "Choose a seed", value = 4),
 
                       sliderInput("B", "number of iterations", min = 0, max = 1000000, value = 5000) ),
 

@@ -20,7 +20,7 @@ shinyServer(function(input, output) {
 
     output$time <- renderText({
         # extract the time of the execution
-        paste("The excution time was", round(system.time(estimate_pi(input$B, input$seed)), digits = 2)[3],"sec")
+        paste("The execution time was", round(system.time(estimate_pi(input$B, input$seed)), digits = 2)[3],"sec")
 
     })
 
