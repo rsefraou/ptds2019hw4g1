@@ -10,7 +10,7 @@ shinyUI(fluidPage(theme = shinytheme("superhero"),
 
                     sidebarPanel(
 
-                      selectInput("method", "Method", value= "Monte-Carlo approach"),
+                      selectInput("method", "Method", choices = "Monte-Carlo approach"),
 
                       numericInput("seed", "Choose a seed", value = 4),
 
